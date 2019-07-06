@@ -1,0 +1,170 @@
+#smile-ui-container { display: none; }
+.bonus-item-promo .bonus-product-promo {
+    background-color: #D7A9E3;
+    background-color: #485cc7;
+    /* background-color: #A05eb5; */
+    color: #fff;
+}
+.primary-content > .continue-shopping-link { display: none; }
+
+.bonus-item-promo .bonus-product-promo .tooltip a {
+    color: #fff;
+    text-transform: none;
+}
+
+.bonus-item-promo .bonus-product-promo .select-bonus {
+    color: #fff;
+    border-color: #fff;
+}
+
+.pt_cart .free-shipping-progress .free-shipping-progress-bar .free-shipping-progress-bar-inner {
+    background: #ff808b;
+}
+
+.pt_cart .free-shipping-progress .free-shipping-progress-bar {
+    border-color: #da5662;
+    border-width: 2px;
+    margin-top: 5px;
+}
+
+
+.pt_cart .cart-title {
+    letter-spacing: 0;
+    font-weight: 700;
+}
+
+#bonus-product-list .product-name { padding-right: 2.125rem; }
+#bonus-product-list .select-bonus-item.exbutton {
+    background: #000;
+    border-color: #fff;
+}
+#bonus-product-list .select-bonus-item.exbutton:before,
+#bonus-product-list .select-bonus-item.exbutton:after {
+    border-color: #fff;
+}
+
+    .bonus-item-promo .bonus-product-promo .bonus-item-details {
+        font-size: 13px;
+        font-family: 'Futura';
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+    }
+
+@media screen and (max-width: 36em) {
+    .bonus-item-promo .bonus-product-promo .bonus-item-details {
+        font-size: 12px;
+    }
+    .bonus-item-promo .bonus-product-promo .bonus-item-details .tooltip {
+        text-transform: none;
+        vertical-align: bottom;
+    }
+    .bonus-item-promo .bonus-product-promo .select-bonus {
+        line-height: 2;
+    }
+    .bonus-item-promo .bonus-product-promo {
+        padding: .9375rem .9375rem;
+    }
+}
+
+
+/**/
+
+.cart-actions-top .cart-action-checkout > button[type="submit"] {
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+}
+
+.pt_cart .cart-actions.cart-actions-top .cart-action-checkout .pp-button-container.tooltip-enabled .pp-button-tooltip {
+    float: right;
+}
+
+.continue-shopping-link {
+    margin-top: 20px;
+}
+
+#cart-table .item-details {
+    padding-top: 25px;
+}
+
+#cart-table .product-list-item {
+    padding-bottom: 5px;
+}
+
+#cart-table .item-image .wishlist-heart {
+    background: #fff;
+    border-radius: 50%;
+    padding: 4px 3px;
+    box-shadow: 0 0 3px #ccc;
+}
+
+.pt_cart .free-shipping-progress .free-shipping-progress-bar {
+    margin: 5px 0 10px;
+    border: 2px solid #d65151;
+    height: 18px;
+}
+
+@media screen and (min-width: 48em) {
+    .cart-actions-top {
+        position: static !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .cart-actions-top {
+        margin-top: 8px;
+        padding-bottom: 1em;
+        width: 100%;
+        position: fixed;
+        float: none;
+        z-index: 100;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(255,255,255,0.95);
+        padding: 15px;
+        box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+        transition: .3s;
+    }
+
+    .pt_cart .cart-actions.cart-actions-top .cart-action-checkout .pp-button-container.tooltip-enabled {
+        margin-left: 0;
+        width: 50%;
+        position: relative;
+        left: 0;
+    }
+
+    .pt_cart .sticky-spacer {
+        height: 86px !important;
+    }
+
+    .cart-actions-top .sub-header-msg {
+        margin-top: 0;
+        width: 320px;
+    }
+
+    .cart-actions-top .cart-action-checkout {
+        margin-top: 5px;
+    }
+    body[data-has-apple-pay="true"] .cart-actions-top .cart-action-checkout > button[type="submit"] {
+        width: 100%;
+        float: left;
+        display: inline-block;
+    }
+    .cart-actions-top .cart-action-checkout > button[type="submit"] {
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .pt_cart #cart-table .item-image {
+        width: 23%;
+    }
+
+    #cart-table td {
+        width: 74%;
+    }
+    .pp-button-container .tooltip>a+[role=tooltip] {
+        top: auto;
+        bottom: calc(100% + .3125rem);
+    }
+}
